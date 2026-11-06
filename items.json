@@ -43,6 +43,26 @@
   },
   "items": [
     {
+      "id": "look-luna",
+      "category": "looks",
+      "title": "Luna",
+      "short": "Белый кружевной корсет с широкими рукавами и длинная юбка",
+      "description": "Готовый образ «Luna»: белый кружевной корсет со шнуровкой, болеро с расклешёнными рукавами и многоярусная кружевная юбка. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-luna-01.jpg",
+        "images/look-luna-02.jpg",
+        "images/look-luna-03.jpg",
+        "images/look-luna-04.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-black-opera",
       "category": "looks",
       "title": "Aria",

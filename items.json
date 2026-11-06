@@ -207,6 +207,25 @@
       "demo": false
     },
     {
+      "id": "dress-fable",
+      "category": "dresses",
+      "title": "Fable",
+      "short": "Светлое короткое платье на завязках с пышной юбкой",
+      "description": "Платье «Fable»: светлое мини на бретелях-завязках, с корсетным лифом и пышной юбкой. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-fable-01.jpg",
+        "images/dress-fable-02.jpg",
+        "images/dress-fable-03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-sonnet",
       "category": "dresses",
       "title": "Sonnet",
@@ -236,8 +255,8 @@
       ],
       "price": "по запросу",
       "images": [
-        "images/dress-midnight-01.jpg",
-        "images/dress-midnight-02.jpg"
+        "images/dress-midnight-02.jpg",
+        "images/dress-midnight-01.jpg"
       ],
       "demo": false
     },

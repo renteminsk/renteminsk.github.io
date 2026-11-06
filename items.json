@@ -230,16 +230,15 @@
       "category": "dresses",
       "title": "Sonnet",
       "short": "Белое длинное платье с кружевным верхом и широкими рукавами",
-      "description": "Платье «Sonnet»: белое макси с кружевным лифом, рюшами и широкими рукавами. Размеры XS–M.",
+      "description": "Платье «Sonnet»: белое макси с кружевным лифом, рюшами и широкими рукавами. Размеры XS–S.",
       "sizes": [
         "XS",
-        "S",
-        "M"
+        "S"
       ],
       "price": "по запросу",
       "images": [
-        "images/dress-sonnet-01.jpg",
         "images/dress-sonnet-02.jpg",
+        "images/dress-sonnet-01.jpg",
         "images/dress-sonnet-03.jpg"
       ],
       "demo": false

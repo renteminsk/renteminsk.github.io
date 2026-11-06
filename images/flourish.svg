@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" fill="none" aria-hidden="true">
+  <g stroke="#2a2a2a" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M140 24c-18-14-36-16-56-10"/>
+    <path d="M140 24c18-14 36-16 56-10"/>
+    <path d="M140 24c-22 10-42 8-62 0"/>
+    <path d="M140 24c22 10 42 8 62 0"/>
+    <path d="M92 16c-6 4-8 10-6 16"/>
+    <path d="M188 16c6 4 8 10 6 16"/>
+    <path d="M78 22c-8-6-16-4-22 2"/>
+    <path d="M202 22c8-6 16-4 22 2"/>
+    <path d="M70 30c-10 2-18-2-24-10"/>
+    <path d="M210 30c10 2 18-2 24-10"/>
+    <circle cx="140" cy="24" r="3.2"/>
+    <path d="M140 16v-6M140 32v6"/>
+  </g>
+</svg>

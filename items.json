@@ -43,22 +43,22 @@
   },
   "items": [
     {
-      "id": "look-ballade",
+      "id": "look-snow-queen",
       "category": "looks",
-      "title": "Ballade",
+      "title": "Snow Queen",
       "short": "Белый жаккардовый корсет, пышные рукава и короткая юбка с кружевом",
-      "description": "Готовый образ «Ballade»: белый жаккардовый корсет со шнуровкой, пышные рукава и короткая расклешённая юбка с кружевной каймой. Размеры XS–M.",
+      "description": "Готовый образ «Snow Queen»: белый жаккардовый корсет со шнуровкой, пышные рукава и короткая расклешённая юбка с кружевной каймой. Размеры M–XL.",
       "sizes": [
-        "XS",
-        "S",
-        "M"
+        "M",
+        "L",
+        "XL"
       ],
       "price": "по запросу",
       "images": [
-        "images/look-ballade-01.jpg",
-        "images/look-ballade-02.jpg",
-        "images/look-ballade-03.jpg",
-        "images/look-ballade-04.jpg"
+        "images/look-snow-queen-01.jpg",
+        "images/look-snow-queen-02.jpg",
+        "images/look-snow-queen-03.jpg",
+        "images/look-snow-queen-04.jpg"
       ],
       "demo": false
     },

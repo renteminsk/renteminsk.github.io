@@ -207,11 +207,11 @@
       "demo": false
     },
     {
-      "id": "dress-fable",
+      "id": "dress-flora",
       "category": "dresses",
-      "title": "Fable",
+      "title": "Flora",
       "short": "Светлое короткое платье на завязках с пышной юбкой",
-      "description": "Платье «Fable»: светлое мини на бретелях-завязках, с корсетным лифом и пышной юбкой. Размеры XS–M.",
+      "description": "Платье «Flora»: светлое мини на бретелях-завязках, с корсетным лифом и пышной юбкой. Размеры XS–M.",
       "sizes": [
         "XS",
         "S",
@@ -219,9 +219,9 @@
       ],
       "price": "по запросу",
       "images": [
-        "images/dress-fable-01.jpg",
-        "images/dress-fable-02.jpg",
-        "images/dress-fable-03.jpg"
+        "images/dress-flora-01.jpg",
+        "images/dress-flora-02.jpg",
+        "images/dress-flora-03.jpg"
       ],
       "demo": false
     },

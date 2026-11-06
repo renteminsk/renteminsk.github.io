@@ -43,6 +43,26 @@
   },
   "items": [
     {
+      "id": "look-nocturne",
+      "category": "looks",
+      "title": "Nocturne",
+      "short": "Чёрный кожаный корсет, кружевной верх и высокие сапоги",
+      "description": "Готовый образ «Nocturne»: чёрный кожаный корсет с золотистыми крючками, кружевной верх, длинная юбка с разрезом и высокие сапоги на шнуровке. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-nocturne-01.jpg",
+        "images/look-nocturne-02.jpg",
+        "images/look-nocturne-03.jpg",
+        "images/look-nocturne-04.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-luna",
       "category": "looks",
       "title": "Luna",

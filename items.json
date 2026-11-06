@@ -43,6 +43,26 @@
   },
   "items": [
     {
+      "id": "look-reverie",
+      "category": "looks",
+      "title": "Reverie",
+      "short": "Белый кружевной корсет с пышной юбкой и кружевным болеро",
+      "description": "Готовый образ «Reverie»: белый жаккардовый корсет на крючках, кружевное болеро с широкими рукавами, короткая пышная юбка, чокер и светлые чулки. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-reverie-01.jpg",
+        "images/look-reverie-02.jpg",
+        "images/look-reverie-03.jpg",
+        "images/look-reverie-04.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-sonata",
       "category": "looks",
       "title": "Sonata",

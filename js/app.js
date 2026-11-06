@@ -114,6 +114,7 @@
 
   const kindLabels = {
     looks: "образ",
+    sets: "комплект",
     dresses: "платье",
     tops: "топ",
     skirts: "юбка",

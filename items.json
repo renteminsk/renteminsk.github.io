@@ -43,11 +43,11 @@
   },
   "items": [
     {
-      "id": "look-adagio",
+      "id": "look-caprice",
       "category": "looks",
-      "title": "Adagio",
+      "title": "Caprice",
       "short": "Белый корсет со шнуровкой, кружевные шорты и перчатки",
-      "description": "Готовый образ «Adagio»: белый жаккардовый корсет со шнуровкой на спине, короткие кружевные шорты, кружевные чулки, короткие перчатки и жемчужное колье. Размеры XS–M.",
+      "description": "Готовый образ «Caprice»: белый жаккардовый корсет со шнуровкой на спине, короткие кружевные шорты, кружевные чулки, короткие перчатки и жемчужное колье. Размеры XS–M.",
       "sizes": [
         "XS",
         "S",
@@ -55,10 +55,10 @@
       ],
       "price": "по запросу",
       "images": [
-        "images/look-adagio-01.jpg",
-        "images/look-adagio-02.jpg",
-        "images/look-adagio-03.jpg",
-        "images/look-adagio-04.jpg"
+        "images/look-caprice-01.jpg",
+        "images/look-caprice-02.jpg",
+        "images/look-caprice-03.jpg",
+        "images/look-caprice-04.jpg"
       ],
       "demo": false
     },

@@ -43,6 +43,26 @@
   },
   "items": [
     {
+      "id": "look-adagio",
+      "category": "looks",
+      "title": "Adagio",
+      "short": "Белый корсет со шнуровкой, кружевные шорты и перчатки",
+      "description": "Готовый образ «Adagio»: белый жаккардовый корсет со шнуровкой на спине, короткие кружевные шорты, кружевные чулки, короткие перчатки и жемчужное колье. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-adagio-01.jpg",
+        "images/look-adagio-02.jpg",
+        "images/look-adagio-03.jpg",
+        "images/look-adagio-04.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-reverie",
       "category": "looks",
       "title": "Reverie",

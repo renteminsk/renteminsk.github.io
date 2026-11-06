@@ -47,6 +47,44 @@
   },
   "items": [
     {
+      "id": "look-vesper",
+      "category": "looks",
+      "title": "Vesper",
+      "short": "Белая блуза с рукавами-колокол и длинная юбка цвета шалфея",
+      "description": "Готовый образ «Vesper»: белая блуза с рукавами-колокол на завязках и длинная юбка с оборками цвета шалфея. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-vesper/01.jpg",
+        "images/look-vesper/02.jpg",
+        "images/look-vesper/03.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "look-eclipse",
+      "category": "looks",
+      "title": "Eclipse",
+      "short": "Чёрная прозрачная макси-юбка, мраморные перчатки и ботинки на платформе",
+      "description": "Готовый образ «Eclipse»: чёрная прозрачная макси-юбка, прозрачный бюстгальтер, перчатки и пояс с мраморным принтом и ботинки на платформе. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-eclipse/01.jpg",
+        "images/look-eclipse/02.jpg",
+        "images/look-eclipse/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-snow-queen",
       "category": "looks",
       "title": "Snow Queen",
@@ -187,6 +225,114 @@
       "demo": false
     },
     {
+      "id": "dress-d1",
+      "category": "dresses",
+      "title": "",
+      "short": "Кремовое вязаное макси с открытыми плечами",
+      "description": "Кремовое вязаное макси с открытыми плечами. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d1/01.jpg",
+        "images/dress-d1/02.jpg",
+        "images/dress-d1/03.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d2",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое прозрачное платье с рукавами-колокол и открытой спиной",
+      "description": "Белое длинное прозрачное платье с рукавами-колокол и открытой спиной. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d2/01.jpg",
+        "images/dress-d2/02.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d3",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое мини с оборками и рукавами-колокол",
+      "description": "Белое мини с оборками и рукавами-колокол. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d3/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d4",
+      "category": "dresses",
+      "title": "",
+      "short": "Кремовое вязаное миди на пуговицах с расклешёнными манжетами",
+      "description": "Кремовое вязаное миди на пуговицах с расклешёнными манжетами. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d4/01.jpg",
+        "images/dress-d4/02.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d5",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое вязаное макси с бахромой по низу",
+      "description": "Белое вязаное макси с бахромой по низу. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d5/01.jpg",
+        "images/dress-d5/02.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d6",
+      "category": "dresses",
+      "title": "",
+      "short": "Коричневое облегающее макси с капюшоном",
+      "description": "Коричневое облегающее макси с капюшоном. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d6/01.jpg",
+        "images/dress-d6/02.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-flora",
       "category": "dresses",
       "title": "Flora",
@@ -236,6 +382,58 @@
       "images": [
         "images/dress-midnight-02.jpg",
         "images/dress-midnight-01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "set-s1",
+      "category": "sets",
+      "title": "",
+      "short": "Кремовый топ-халтер с оборками и длинная юбка с оборками",
+      "description": "Кремовый топ-халтер с оборками и длинная юбка с оборками. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s1/01.jpg",
+        "images/set-s1/02.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "set-s2",
+      "category": "sets",
+      "title": "",
+      "short": "Белый топ на завязке и шорты с оборками",
+      "description": "Белый топ на завязке и шорты с оборками. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s2/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "set-s3",
+      "category": "sets",
+      "title": "",
+      "short": "Белый кроп-топ с оборками и ярусная мини-юбка",
+      "description": "Белый кроп-топ с оборками и ярусная мини-юбка. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s3/01.jpg"
       ],
       "demo": false
     },

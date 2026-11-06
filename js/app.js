@@ -124,8 +124,8 @@
 
   function displayTitle(item) {
     const name = (item.title || "").trim();
-    if (!name) return "";
     const kind = kindLabels[item.category] || "образ";
+    if (!name) return kind;
     return `${kind} "${name}"`;
   }
 
@@ -141,7 +141,7 @@
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "item";
-    btn.setAttribute("aria-label", `${item.title}. Подробнее`);
+    btn.setAttribute("aria-label", `${displayTitle(item)}. Подробнее`);
 
     const media = document.createElement("div");
     media.className = "item-media";
@@ -153,7 +153,7 @@
     }
     const img = document.createElement("img");
     img.src = item.images[0];
-    img.alt = item.title;
+    img.alt = displayTitle(item);
     img.loading = "lazy";
     media.appendChild(img);
 
@@ -188,7 +188,7 @@
     els.modalMain.innerHTML = "";
     const img = document.createElement("img");
     img.src = images[state.activeImage];
-    img.alt = item.title;
+    img.alt = displayTitle(item);
     els.modalMain.appendChild(img);
 
     els.modalThumbs.querySelectorAll("button").forEach((b, i) => {

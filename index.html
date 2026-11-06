@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rente Minsk · каталог образов</title>
+  <meta name="description" content="Rente Minsk — аренда образов и одежды для фотосъёмок в Минске. Только просмотр." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
+</head>
+<body>
+  <main>
+    <section class="hero" id="top" aria-label="Главный экран">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="hero-center">
+        <p class="hero-wordmark">Rente Minsk</p>
+        <p class="hero-sub">аренда образов для фотосъёмок</p>
+        <a class="pill" href="#catalog">смотреть каталог</a>
+      </div>
+      <p class="hero-demo">минск</p>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <p class="catalog-note">готовые образы и отдельные вещи · только просмотр</p>
+      <a class="pill pill-outline" href="https://instagram.com/farguino_photo" target="_blank" rel="noopener noreferrer">написать в Instagram</a>
+
+      <h1 class="catalog-title">каталог</h1>
+
+      <nav class="cat-links" id="filter-categories" aria-label="Категории"></nav>
+
+      <div class="catalog-toolbar">
+        <div class="toolbar-left">
+          <label class="select-wrap">
+            <span class="sr-only">Размер</span>
+            <select id="filter-size" aria-label="Размер">
+              <option value="all">размер ▾</option>
+            </select>
+          </label>
+        </div>
+        <div class="toolbar-right">
+          <label class="select-wrap select-sort">
+            <span class="sr-only">Порядок</span>
+            <select id="sort-order" aria-label="Порядок">
+              <option value="default">Порядок: по умолчанию</option>
+              <option value="title">Порядок: по названию</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <p class="found" id="catalog-count">Найдено: 0</p>
+
+      <div class="grid" id="item-grid" aria-live="polite"></div>
+      <p class="empty" id="empty-state" hidden>
+        Ничего не найдено.
+        <button type="button" class="text-btn" id="empty-reset">сбросить фильтры</button>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Rente Minsk · аренда образов в Минске</p>
+    <a href="https://instagram.com/farguino_photo" target="_blank" rel="noopener noreferrer">@farguino_photo</a>
+  </footer>
+
+  <div class="modal" id="item-modal" hidden aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-top">
+        <button type="button" class="text-btn" data-close>← к каталогу</button>
+        <button type="button" class="modal-x" data-close aria-label="Закрыть">×</button>
+      </div>
+      <div class="modal-layout">
+        <div class="modal-gallery">
+          <div class="modal-main" id="modal-main"></div>
+          <div class="modal-thumbs" id="modal-thumbs"></div>
+        </div>
+        <div class="modal-info">
+          <p class="modal-demo" id="modal-demo" hidden>демо</p>
+          <h2 id="modal-title"></h2>
+          <p class="modal-price" id="modal-price"></p>
+          <p class="modal-cat" id="modal-cat"></p>
+          <label class="select-wrap modal-size">
+            <span>размер</span>
+            <select id="modal-size" disabled></select>
+          </label>
+          <p class="modal-desc" id="modal-desc"></p>
+          <p class="modal-note">Демо-карточка. Свои фото положите в <code>images/</code> и обновите <code>items.json</code>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

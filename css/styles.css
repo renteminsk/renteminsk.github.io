@@ -1,0 +1,597 @@
+/* Каталог образов — layout inspired by mikitrend.ru (own brand) */
+:root {
+  --cream: #f7f3ee;
+  --cream-deep: #efe8df;
+  --paper: #fffcf8;
+  --ink: #1a1a1a;
+  --ink-soft: #5a5a5a;
+  --line: rgba(26, 26, 26, 0.12);
+  --font: "Comfortaa", system-ui, sans-serif;
+  --max: 980px;
+  --gap: 2.4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+  font-size: 0.85em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* —— Hero —— */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #1a1a1a;
+}
+
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  background:
+    center / cover no-repeat url("../images/look-01.jpg");
+  transform: scale(1.02);
+}
+
+.hero-veil {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 238, 0.08) 0%, rgba(247, 243, 238, 0.22) 55%, rgba(247, 243, 238, 0.55) 100%);
+}
+
+.hero-center {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.hero-wordmark {
+  margin: 0;
+  font-size: clamp(1.55rem, 4.2vw, 2.35rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: none !important;
+}
+
+.hero-sub {
+  margin: 0 0 1.4rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: lowercase;
+  color: rgba(26, 26, 26, 0.72);
+}
+
+.hero-demo {
+  position: absolute;
+  z-index: 1;
+  bottom: 1.1rem;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: lowercase;
+  color: rgba(26, 26, 26, 0.55);
+}
+
+/* —— Pills —— */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.7rem 1.55rem;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: 1px solid #111;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.pill:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.pill-outline {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+/* —— Catalog —— */
+.catalog {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 3.2rem 1.25rem 4.5rem;
+  text-align: center;
+}
+
+.catalog-note {
+  margin: 0 0 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+
+.catalog > .pill {
+  margin-bottom: 2.6rem;
+}
+
+.catalog-title {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.7rem, 3.5vw, 2.15rem);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+
+.cat-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem 1.05rem;
+  max-width: 720px;
+  margin: 0 auto 1.6rem;
+  font-size: 0.95rem;
+}
+
+.cat-links button {
+  appearance: none;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 0.15rem 0;
+  text-transform: none;
+}
+
+.cat-links button:hover {
+  color: var(--ink);
+}
+
+.cat-links button.is-active {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.catalog-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.55rem;
+  text-align: left;
+}
+
+.toolbar-left,
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.select-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.select-wrap span {
+  text-transform: lowercase;
+  color: var(--ink-soft);
+}
+
+.select-wrap select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%231a1a1a' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E")
+    right 0.15rem center / 8px no-repeat;
+  font: inherit;
+  color: var(--ink);
+  padding: 0.25rem 1.1rem 0.25rem 0;
+  cursor: pointer;
+  min-width: 5.5rem;
+}
+
+.select-sort select {
+  border: 1px solid var(--line);
+  background-color: var(--paper);
+  background-position: right 0.65rem center;
+  padding: 0.45rem 1.8rem 0.45rem 0.75rem;
+  border-radius: 2px;
+  min-width: 13rem;
+}
+
+.found {
+  margin: 0 0 1.6rem;
+  text-align: left;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+/* —— Grid: 2 columns —— */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap) 1.8rem;
+  text-align: left;
+}
+
+.item {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.item-media {
+  position: relative;
+  aspect-ratio: 1 / 1.05;
+  overflow: hidden;
+  background: var(--cream-deep);
+  margin-bottom: 0.85rem;
+}
+
+.item-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.item:hover .item-media img {
+  transform: scale(1.03);
+}
+
+.badge-demo {
+  position: absolute;
+  top: 0.65rem;
+  left: 0.65rem;
+  z-index: 1;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  background: rgba(255, 252, 248, 0.9);
+  color: var(--ink-soft);
+}
+
+.item-title {
+  margin: 0 0 0.2rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: none !important;
+}
+
+.item-price {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.empty {
+  margin: 2.5rem 0 0;
+  color: var(--ink-soft);
+}
+
+.text-btn {
+  appearance: none;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* —— Modal / item —— */
+.modal[hidden] {
+  display: none !important;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: stretch;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(247, 243, 238, 0.92);
+}
+
+.modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  max-height: 100vh;
+  overflow: auto;
+  background: var(--paper);
+  padding: 1rem 1.25rem 2.5rem;
+}
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-x {
+  appearance: none;
+  border: 0;
+  background: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink);
+  padding: 0.2rem 0.4rem;
+}
+
+.modal-layout {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.modal-main {
+  position: relative;
+  aspect-ratio: 1 / 1.05;
+  background: var(--cream-deep);
+  overflow: hidden;
+}
+
+.modal-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-thumbs {
+  display: flex;
+  gap: 0.55rem;
+  margin-top: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.modal-thumbs button {
+  appearance: none;
+  border: 1px solid transparent;
+  padding: 0;
+  background: var(--cream-deep);
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.modal-thumbs button.is-active {
+  border-color: var(--ink);
+}
+
+.modal-thumbs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-info {
+  text-align: left;
+  padding-top: 0.2rem;
+}
+
+.modal-demo {
+  margin: 0 0 0.55rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+}
+
+.modal-info h2 {
+  margin: 0 0 0.45rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.55rem);
+  font-weight: 500;
+  text-transform: none !important;
+  letter-spacing: 0.02em;
+}
+
+.modal-price {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+}
+
+.modal-cat {
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  text-transform: lowercase;
+}
+
+.modal-size {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin-bottom: 1.2rem;
+}
+
+.modal-size select {
+  border: 1px solid var(--line);
+  background-color: var(--cream);
+  background-position: right 0.7rem center;
+  padding: 0.55rem 1.8rem 0.55rem 0.75rem;
+  min-width: 8rem;
+  border-radius: 2px;
+}
+
+.modal-desc {
+  margin: 0 0 1.4rem;
+  font-size: 0.92rem;
+  color: var(--ink);
+  max-width: 36ch;
+}
+
+.modal-note {
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* —— Footer —— */
+.site-footer {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  text-transform: none;
+}
+
+.site-footer a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* —— Responsive —— */
+@media (max-width: 820px) {
+  .modal-layout {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .modal-main {
+    max-height: 55vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  :root {
+    --gap: 2rem;
+  }
+
+  .catalog-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toolbar-right {
+    justify-content: flex-start;
+  }
+
+  .select-sort select {
+    width: 100%;
+  }
+
+  .hero-wordmark {
+    letter-spacing: 0.06em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .item-media img,
+  .pill {
+    transition: none;
+  }
+}

@@ -183,6 +183,22 @@
       "demo": false
     },
     {
+      "id": "dress-noir",
+      "category": "dresses",
+      "title": "Noir",
+      "short": "Чёрное платье с запахом, длинными рукавами и драпировкой",
+      "description": "Платье «Noir»: чёрное мини с запахом, длинными рукавами и мягкой драпировкой по бедру. Размер S.",
+      "sizes": [
+        "S"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-noir-01.jpg",
+        "images/dress-noir-02.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-lavender",
       "category": "dresses",
       "title": "Lavender Midi",

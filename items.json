@@ -5,12 +5,12 @@
       "label": "Готовые образы"
     },
     {
-      "id": "sets",
-      "label": "Комплекты"
-    },
-    {
       "id": "dresses",
       "label": "Платья"
+    },
+    {
+      "id": "sets",
+      "label": "Комплекты"
     },
     {
       "id": "tops",
@@ -187,26 +187,6 @@
       "demo": false
     },
     {
-      "id": "set-celeste",
-      "category": "sets",
-      "title": "Celeste",
-      "short": "Белый топ с открытыми плечами и широкие брюки",
-      "description": "Комплект «Celeste»: белый топ с открытыми плечами и рюшами и свободные брюки на завязке. Размеры XS–M.",
-      "sizes": [
-        "XS",
-        "S",
-        "M"
-      ],
-      "price": "по запросу",
-      "images": [
-        "images/set-celeste-01.jpg",
-        "images/set-celeste-02.jpg",
-        "images/set-celeste-03.jpg",
-        "images/set-celeste-04.jpg"
-      ],
-      "demo": false
-    },
-    {
       "id": "dress-flora",
       "category": "dresses",
       "title": "Flora",
@@ -256,6 +236,26 @@
       "images": [
         "images/dress-midnight-02.jpg",
         "images/dress-midnight-01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "set-celeste",
+      "category": "sets",
+      "title": "Celeste",
+      "short": "Белый топ с открытыми плечами и широкие брюки",
+      "description": "Комплект «Celeste»: белый топ с открытыми плечами и рюшами и свободные брюки на завязке. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-celeste-01.jpg",
+        "images/set-celeste-02.jpg",
+        "images/set-celeste-03.jpg",
+        "images/set-celeste-04.jpg"
       ],
       "demo": false
     },

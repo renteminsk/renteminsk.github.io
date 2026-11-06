@@ -43,6 +43,26 @@
   },
   "items": [
     {
+      "id": "look-ballade",
+      "category": "looks",
+      "title": "Ballade",
+      "short": "Белый жаккардовый корсет, пышные рукава и короткая юбка с кружевом",
+      "description": "Готовый образ «Ballade»: белый жаккардовый корсет со шнуровкой, пышные рукава и короткая расклешённая юбка с кружевной каймой. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-ballade-01.jpg",
+        "images/look-ballade-02.jpg",
+        "images/look-ballade-03.jpg",
+        "images/look-ballade-04.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-caprice",
       "category": "looks",
       "title": "Caprice",

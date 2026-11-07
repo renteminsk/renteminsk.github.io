@@ -548,6 +548,40 @@
       "demo": false
     },
     {
+      "id": "top-t1",
+      "category": "tops",
+      "title": "",
+      "short": "Белый фактурный топ со спущенными плечами и завязкой",
+      "description": "Белый фактурный топ со спущенными плечами, короткими рукавами и завязкой. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/top-t1/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "top-t2",
+      "category": "tops",
+      "title": "",
+      "short": "Белый ажурный топ на завязке за шеей",
+      "description": "Белый ажурный топ на завязке за шеей. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/top-t2/01.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "top-satin",
       "category": "tops",
       "title": "Satin Top",

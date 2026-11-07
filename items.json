@@ -47,6 +47,25 @@
   },
   "items": [
     {
+      "id": "look-sable",
+      "category": "looks",
+      "title": "Sable",
+      "short": "Чёрная блуза, корсет, длинная юбка и перчатки",
+      "description": "Готовый образ «Sable»: чёрная блуза с прозрачными рукавами, корсет, длинная юбка и длинные перчатки. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-sable/01.jpg",
+        "images/look-sable/02.jpg",
+        "images/look-sable/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-vesper",
       "category": "looks",
       "title": "Vesper",
@@ -221,6 +240,23 @@
         "images/look-black-opera-02.jpg",
         "images/look-black-opera-03.jpg",
         "images/look-black-opera-04.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d8",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое платье с воротником и длинными рукавами",
+      "description": "Белое платье с воротником и длинными рукавами. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d8/01.jpg"
       ],
       "demo": false
     },
@@ -401,6 +437,23 @@
       "images": [
         "images/dress-midnight-02.jpg",
         "images/dress-midnight-01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "set-s5",
+      "category": "sets",
+      "title": "",
+      "short": "Чёрный топ и короткая юбка",
+      "description": "Чёрный топ и короткая юбка. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s5/01.jpg"
       ],
       "demo": false
     },

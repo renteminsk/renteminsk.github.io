@@ -386,6 +386,24 @@
       "demo": false
     },
     {
+      "id": "set-s4",
+      "category": "sets",
+      "title": "",
+      "short": "Белый топ и белые шорты",
+      "description": "Белый топ и белые шорты. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s4/01.jpg",
+        "images/set-s4/02.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "set-s1",
       "category": "sets",
       "title": "",

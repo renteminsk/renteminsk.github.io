@@ -225,6 +225,25 @@
       "demo": false
     },
     {
+      "id": "dress-d7",
+      "category": "dresses",
+      "title": "",
+      "short": "Светлое платье со шнуровкой",
+      "description": "Светлое платье со шнуровкой спереди и кружевом по вырезу. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d7/01.jpg",
+        "images/dress-d7/02.jpg",
+        "images/dress-d7/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d1",
       "category": "dresses",
       "title": "",

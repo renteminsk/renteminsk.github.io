@@ -35,6 +35,25 @@
   },
   "items": [
     {
+      "id": "look-rouge",
+      "category": "looks",
+      "title": "Rouge",
+      "short": "Чёрный кружевной топ, прозрачная макси-юбка и широкий ремень",
+      "description": "Готовый образ «Rouge»: чёрный кружевной топ, прозрачная чёрная макси-юбка и широкий чёрный ремень. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-rouge/01.jpg",
+        "images/look-rouge/02.jpg",
+        "images/look-rouge/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-sable",
       "category": "looks",
       "title": "Sable",

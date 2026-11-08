@@ -251,6 +251,23 @@
       "demo": false
     },
     {
+      "id": "dress-d11",
+      "category": "dresses",
+      "title": "",
+      "short": "Сиреневое мини с открытыми плечами",
+      "description": "Сиреневое мини с открытыми плечами. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d11/01.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d9",
       "category": "dresses",
       "title": "",

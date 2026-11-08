@@ -47,6 +47,25 @@
   },
   "items": [
     {
+      "id": "look-sable",
+      "category": "looks",
+      "title": "Sable",
+      "short": "Чёрная блуза, корсет, длинная юбка и перчатки",
+      "description": "Готовый образ «Sable»: чёрная блуза с прозрачными рукавами, корсет, длинная юбка и длинные перчатки. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-sable/01.jpg",
+        "images/look-sable/02.jpg",
+        "images/look-sable/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-vesper",
       "category": "looks",
       "title": "Vesper",
@@ -225,6 +244,42 @@
       "demo": false
     },
     {
+      "id": "dress-d8",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое платье с воротником и длинными рукавами",
+      "description": "Белое платье с воротником и длинными рукавами. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d8/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d7",
+      "category": "dresses",
+      "title": "",
+      "short": "Светлое платье со шнуровкой",
+      "description": "Светлое платье со шнуровкой спереди и кружевом по вырезу. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d7/01.jpg",
+        "images/dress-d7/02.jpg",
+        "images/dress-d7/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d1",
       "category": "dresses",
       "title": "",
@@ -386,6 +441,23 @@
       "demo": false
     },
     {
+      "id": "set-s5",
+      "category": "sets",
+      "title": "",
+      "short": "Чёрный топ и короткая юбка",
+      "description": "Чёрный топ и короткая юбка. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/set-s5/01.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "set-s4",
       "category": "sets",
       "title": "",
@@ -472,6 +544,40 @@
         "images/set-celeste-02.jpg",
         "images/set-celeste-03.jpg",
         "images/set-celeste-04.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "top-t1",
+      "category": "tops",
+      "title": "",
+      "short": "Белый фактурный топ со спущенными плечами и завязкой",
+      "description": "Белый фактурный топ со спущенными плечами, короткими рукавами и завязкой. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/top-t1/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "top-t2",
+      "category": "tops",
+      "title": "",
+      "short": "Белый ажурный топ на завязке за шеей",
+      "description": "Белый ажурный топ на завязке за шеей. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/top-t2/01.jpg"
       ],
       "demo": false
     },

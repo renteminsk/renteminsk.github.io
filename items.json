@@ -251,6 +251,42 @@
       "demo": false
     },
     {
+      "id": "dress-d12",
+      "category": "dresses",
+      "title": "",
+      "short": "Чёрное мини с корсетом",
+      "description": "Чёрное мини с корсетом. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d12/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d13",
+      "category": "dresses",
+      "title": "",
+      "short": "Шампанское атласное мини со шнуровкой на спине",
+      "description": "Шампанское атласное мини со шнуровкой на спине. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d13/01.jpg",
+        "images/dress-d13/02.jpg",
+        "images/dress-d13/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d11",
       "category": "dresses",
       "title": "",

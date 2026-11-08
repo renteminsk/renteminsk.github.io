@@ -251,6 +251,43 @@
       "demo": false
     },
     {
+      "id": "dress-d9",
+      "category": "dresses",
+      "title": "",
+      "short": "Бежевое платье-рубашка с коричневым ремнём",
+      "description": "Бежевое платье-рубашка с коричневым ремнём. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d9/01.jpg",
+        "images/dress-d9/02.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "dress-d10",
+      "category": "dresses",
+      "title": "",
+      "short": "Зелёное атласное платье-комбинация с чёрным ремнём",
+      "description": "Зелёное атласное платье-комбинация с чёрным ремнём. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d10/01.jpg",
+        "images/dress-d10/02.jpg",
+        "images/dress-d10/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d8",
       "category": "dresses",
       "title": "",

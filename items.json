@@ -314,6 +314,20 @@
       "demo": false
     },
     {
+      "id": "dress-d16",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое хлопковое мини с кружевом, бантом и корсетным лифом",
+      "description": "Белое хлопковое мини с кружевным низом, бантом и корсетным лифом.",
+      "price": "по запросу",
+      "images": [
+        "images/dress-d16/01.jpg",
+        "images/dress-d16/02.jpg",
+        "images/dress-d16/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d15",
       "category": "dresses",
       "title": "",

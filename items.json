@@ -35,6 +35,20 @@
   },
   "items": [
     {
+      "id": "look-autumn-manor",
+      "category": "looks",
+      "title": "Autumn Manor",
+      "short": "Коричневый замшевый тренч, чёрная водолазка, оливковая юбка и бежевые ботинки",
+      "description": "Готовый образ «Autumn Manor»: коричневый замшевый тренч, чёрная водолазка, широкий чёрный ремень с двумя пряжками, оливковая ярусная макси-юбка и бежевые ботинки на шнуровке.",
+      "price": "по запросу",
+      "images": [
+        "images/look-autumn-manor/01.jpg",
+        "images/look-autumn-manor/02.jpg",
+        "images/look-autumn-manor/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-roadtrip",
       "category": "looks",
       "title": "Road Trip",

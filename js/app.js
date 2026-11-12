@@ -28,6 +28,7 @@
     modalCat: document.getElementById("modal-cat"),
     modalSize: document.getElementById("modal-size"),
     modalDesc: document.getElementById("modal-desc"),
+    modalActions: document.getElementById("modal-actions"),
   };
 
   function sizeLabel(size) {
@@ -213,6 +214,7 @@
     els.modalPrice.textContent = displaySizes(item);
     els.modalCat.textContent = categoryLabel(item.category).toLowerCase();
     els.modalDesc.textContent = item.description;
+    els.modalActions.hidden = item.category !== "looks";
 
     els.modalSize.innerHTML = "";
     (item.sizes || []).forEach((s) => {

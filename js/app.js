@@ -155,7 +155,7 @@
     if (item.couple) {
       const badge = document.createElement("span");
       badge.className = "badge-couple";
-      badge.textContent = "Парный";
+      badge.textContent = "Парный образ";
       media.appendChild(badge);
     }
     const img = document.createElement("img");

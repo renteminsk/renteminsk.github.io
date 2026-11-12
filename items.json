@@ -314,6 +314,19 @@
       "demo": false
     },
     {
+      "id": "dress-d17",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое хлопковое платье с пышными рукавами и корсетной шнуровкой",
+      "description": "Белое хлопковое платье с пышными длинными рукавами, корсетной шнуровкой на талии и кружевным низом.",
+      "price": "по запросу",
+      "images": [
+        "images/dress-d17/01.jpg",
+        "images/dress-d17/02.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d16",
       "category": "dresses",
       "title": "",

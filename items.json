@@ -35,6 +35,20 @@
   },
   "items": [
     {
+      "id": "look-frost",
+      "category": "looks",
+      "title": "Frost",
+      "short": "Белый кружевной корсет, юбка из искусственного меха и пушистые наушники",
+      "description": "Готовый образ «Frost»: белый корсет с кружевом, белая мини-юбка из искусственного меха, меховые митенки, белые пушистые наушники и жемчужный чокер.",
+      "price": "по запросу",
+      "images": [
+        "images/look-frost/01.jpg",
+        "images/look-frost/02.jpg",
+        "images/look-frost/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-manor-love",
       "category": "looks",
       "title": "Manor Love",

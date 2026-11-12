@@ -347,6 +347,25 @@ code {
   color: var(--ink-soft);
 }
 
+.badge-couple {
+  position: absolute;
+  top: 0.65rem;
+  left: 0.65rem;
+  z-index: 1;
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--ink);
+  background: rgba(247, 243, 238, 0.92);
+  color: var(--ink);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.badge-demo ~ .badge-couple {
+  top: 2.05rem;
+}
+
 .item-title {
   margin: 0 0 0.2rem;
   font-size: 0.98rem;
@@ -486,6 +505,21 @@ code {
   letter-spacing: 0.12em;
   text-transform: lowercase;
   color: var(--ink-soft);
+}
+
+.modal-couple {
+  margin: 0 0 0.55rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.modal-couple:not([hidden]) {
+  display: inline-block;
 }
 
 .modal-info h2 {

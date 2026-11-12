@@ -22,6 +22,7 @@
     modalMain: document.getElementById("modal-main"),
     modalThumbs: document.getElementById("modal-thumbs"),
     modalDemo: document.getElementById("modal-demo"),
+    modalCouple: document.getElementById("modal-couple"),
     modalTitle: document.getElementById("modal-title"),
     modalPrice: document.getElementById("modal-price"),
     modalCat: document.getElementById("modal-cat"),
@@ -151,6 +152,12 @@
       badge.textContent = "демо";
       media.appendChild(badge);
     }
+    if (item.couple) {
+      const badge = document.createElement("span");
+      badge.className = "badge-couple";
+      badge.textContent = "Парный";
+      media.appendChild(badge);
+    }
     const img = document.createElement("img");
     img.src = item.images[0];
     img.alt = displayTitle(item);
@@ -201,6 +208,7 @@
     state.activeImage = 0;
 
     els.modalDemo.hidden = !item.demo;
+    els.modalCouple.hidden = !item.couple;
     els.modalTitle.textContent = displayTitle(item);
     els.modalPrice.textContent = displaySizes(item);
     els.modalCat.textContent = categoryLabel(item.category).toLowerCase();

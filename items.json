@@ -35,6 +35,25 @@
   },
   "items": [
     {
+      "id": "look-roadtrip",
+      "category": "looks",
+      "title": "Road Trip",
+      "short": "Белая макси-юбка, чёрный топ на завязках, кожаная куртка и ботинки",
+      "description": "Готовый образ «Road Trip»: белая макси-юбка, чёрный топ на завязках, коричневая кожаная куртка и чёрные ботинки на шнуровке. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/look-roadtrip/01.jpg",
+        "images/look-roadtrip/02.jpg",
+        "images/look-roadtrip/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-rouge",
       "category": "looks",
       "title": "Rouge",

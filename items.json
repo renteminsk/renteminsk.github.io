@@ -314,6 +314,20 @@
       "demo": false
     },
     {
+      "id": "dress-d15",
+      "category": "dresses",
+      "title": "",
+      "short": "Айвори атласное платье-комбинация с розой",
+      "description": "Айвори атласное платье-комбинация с розой.",
+      "price": "по запросу",
+      "images": [
+        "images/dress-d15/01.jpg",
+        "images/dress-d15/02.jpg",
+        "images/dress-d15/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d14",
       "category": "dresses",
       "title": "",

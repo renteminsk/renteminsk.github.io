@@ -251,6 +251,25 @@
       "demo": false
     },
     {
+      "id": "dress-d14",
+      "category": "dresses",
+      "title": "",
+      "short": "Белое атласное платье с кружевом",
+      "description": "Белое атласное платье с кружевом. Размеры XS–M.",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "price": "по запросу",
+      "images": [
+        "images/dress-d14/01.jpg",
+        "images/dress-d14/02.jpg",
+        "images/dress-d14/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "dress-d12",
       "category": "dresses",
       "title": "",

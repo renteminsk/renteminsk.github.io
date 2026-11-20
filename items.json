@@ -661,6 +661,20 @@
       "demo": false
     },
     {
+      "id": "set-s6",
+      "category": "sets",
+      "title": "",
+      "short": "Чёрный корсет без бретелей и белая ярусная макси-юбка",
+      "description": "Чёрный корсет без бретелей и белая ярусная макси-юбка.",
+      "price": "по запросу",
+      "images": [
+        "images/set-s6/01.jpg",
+        "images/set-s6/02.jpg",
+        "images/set-s6/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "set-s5",
       "category": "sets",
       "title": "",

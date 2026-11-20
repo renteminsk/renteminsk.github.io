@@ -15,6 +15,10 @@
     {
       "id": "tops",
       "label": "Топы"
+    },
+    {
+      "id": "glasses",
+      "label": "Очки"
     }
   ],
   "sizes": [
@@ -812,6 +816,78 @@
       "price": "по запросу",
       "images": [
         "images/top-t2/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g1",
+      "category": "glasses",
+      "title": "",
+      "short": "Прямоугольные очки с оранжевыми линзами",
+      "description": "Прямоугольные очки с оранжевыми линзами.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g1/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g2",
+      "category": "glasses",
+      "title": "",
+      "short": "Прямоугольные металлические очки с тёмным градиентом и цепочкой",
+      "description": "Прямоугольные металлические очки с тёмным градиентом и цепочкой.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g2/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g3",
+      "category": "glasses",
+      "title": "",
+      "short": "Широкие чёрные прямоугольные очки",
+      "description": "Широкие чёрные прямоугольные очки.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g3/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g4",
+      "category": "glasses",
+      "title": "",
+      "short": "Чёрные металлические шестигранные очки с серой линзой",
+      "description": "Чёрные металлические шестигранные очки с серой линзой.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g4/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g5",
+      "category": "glasses",
+      "title": "",
+      "short": "Чёрные авиаторы-квадраты с прозрачными линзами",
+      "description": "Чёрные авиаторы-квадраты с прозрачными линзами.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g5/01.jpg"
+      ],
+      "demo": false
+    },
+    {
+      "id": "glasses-g6",
+      "category": "glasses",
+      "title": "",
+      "short": "Серебристые очки с полуободком и серой линзой",
+      "description": "Серебристые очки с полуободком и серой линзой.",
+      "price": "по запросу",
+      "images": [
+        "images/glasses-g6/01.jpg"
       ],
       "demo": false
     }

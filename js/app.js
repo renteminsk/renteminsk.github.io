@@ -119,6 +119,7 @@
     sets: "комплект",
     dresses: "платье",
     tops: "топ",
+    glasses: "очки",
     skirts: "юбка",
     shoes: "обувь",
     accessories: "аксессуар",

@@ -35,6 +35,20 @@
   },
   "items": [
     {
+      "id": "look-black-pearl",
+      "category": "looks",
+      "title": "Black Pearl",
+      "short": "Чёрный корсет без бретелей и белая ярусная макси-юбка",
+      "description": "Готовый образ «Black Pearl»: чёрный корсет без бретелей и белая ярусная макси-юбка.",
+      "price": "по запросу",
+      "images": [
+        "images/look-black-pearl/01.jpg",
+        "images/look-black-pearl/02.jpg",
+        "images/look-black-pearl/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-frost",
       "category": "looks",
       "title": "Frost",
@@ -657,20 +671,6 @@
       "images": [
         "images/dress-midnight-02.jpg",
         "images/dress-midnight-01.jpg"
-      ],
-      "demo": false
-    },
-    {
-      "id": "set-s6",
-      "category": "sets",
-      "title": "",
-      "short": "Чёрный корсет без бретелей и белая ярусная макси-юбка",
-      "description": "Чёрный корсет без бретелей и белая ярусная макси-юбка.",
-      "price": "по запросу",
-      "images": [
-        "images/set-s6/01.jpg",
-        "images/set-s6/02.jpg",
-        "images/set-s6/03.jpg"
       ],
       "demo": false
     },

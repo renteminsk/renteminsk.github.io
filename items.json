@@ -39,6 +39,20 @@
   },
   "items": [
     {
+      "id": "look-boheme",
+      "category": "looks",
+      "title": "Bohème",
+      "short": "Чёрный вязаный жилет и белая ярусная макси-юбка",
+      "description": "Готовый образ «Bohème»: чёрный вязаный жилет с шестигранным кружевом, завязанный спереди, и белая ярусная макси-юбка с оборками на кулиске.",
+      "price": "по запросу",
+      "images": [
+        "images/look-boheme/01.jpg",
+        "images/look-boheme/02.jpg",
+        "images/look-boheme/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-black-pearl",
       "category": "looks",
       "title": "Black Pearl",

@@ -39,6 +39,20 @@
   },
   "items": [
     {
+      "id": "look-cabaret",
+      "category": "looks",
+      "title": "Cabaret",
+      "short": "Чёрный атласный корсет, кружевная юбка и оперные перчатки",
+      "description": "Готовый образ «Cabaret»: чёрный атласный корсет с кружевной юбкой-оборкой, длинные чёрные атласные оперные перчатки, чёрный чокер с бусинами и чёрные чулки с кружевным верхом.",
+      "price": "по запросу",
+      "images": [
+        "images/look-cabaret/01.jpg",
+        "images/look-cabaret/02.jpg",
+        "images/look-cabaret/03.jpg"
+      ],
+      "demo": false
+    },
+    {
       "id": "look-boheme",
       "category": "looks",
       "title": "Bohème",
